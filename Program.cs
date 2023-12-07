@@ -7,11 +7,11 @@
             Console.WriteLine(Semaphore.Green);
         }
 
-        enum Semaphore : byte
+        enum Semaphore : int
         {
-            Red,
-            Yellow,
-            Green
+            Red = 100,
+            Yellow = 200,
+            Green = 300
         }
     }
 }
