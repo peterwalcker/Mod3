@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            double result = 10 % 3;
+            Console.WriteLine(result);
         }
     }
 }
