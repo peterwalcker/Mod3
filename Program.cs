@@ -4,7 +4,14 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(Semaphore.Green);
+        }
+
+        enum Semaphore : byte
+        {
+            Red,
+            Yellow,
+            Green
         }
     }
 }
